@@ -1,10 +1,72 @@
+/* general rules */
+
 * {
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: "Open Sans",sans-serif;
 }
 
 body {
-    background-color: bisque;
+    font-family: "Open Sans",sans-serif;
 }
+
+img {
+    display: block;
+}
+
+.container::after {
+    contain: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.float_r {
+    float: right;
+}
+
+/* Header rules */
+
+.bgjumbo {
+    background-color: rgb(104, 174, 218);
+    min-width: 100%;
+    /* width: 100px; */
+    height: 550px;
+    position: absolute;
+    top: 100px;
+    z-index: -10;
+}
+
+header div.container {
+    padding: 0 7%;
+    margin-top: 10vh;
+}
+
+header div.container h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.jumbotxt {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+
+.btn_blue {
+    color: white;
+    background-color: blue;
+}
+
+
+
+
