@@ -115,10 +115,82 @@ main {
     margin: 20px auto;
 }
 
+/* carosello rules */
+
 .debug {
     background-color: blue;
+    opacity: 50%;
     width: 100%;
     height: 60vh;
 }
 
+.caros_squares {
+    width: 64vh;
+    height: 64vh;
+    text-align: center;
+}
+
+.card {
+    width: 32vh;
+    height: 32vh;
+    vertical-align: middle;
+    color: white;
+}
+
+#card01 {
+    background-color: rgb(81, 241, 148);
+}
+
+#card02 {
+    background-color: rgb(82, 21, 39);
+}
+
+#card03 {
+    background-color: rgb(0, 153, 255);
+}
+
+#card04 {
+    background-color: rgb(255, 0, 0);
+}
+
+#card05 {
+    background-color: rgb(255, 0, 0);
+}
+
+#card06 {
+    background-color: rgb(110, 206, 219);
+}
+
+#card07 {
+    background-color: rgb(17, 27, 116);
+}
+
+#card08 {
+    background-color: rgb(255, 230, 0);
+}
+
+.caros_txt {
+    max-width: calc(100% - 64vh);
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+
+/* FAQ rules */
+
+/* footer rules */
+
+.col20 {
+    width: 20%;
+}
+
+.col15 {
+    max-width: 15%;
+}
+
+footer {
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
 
