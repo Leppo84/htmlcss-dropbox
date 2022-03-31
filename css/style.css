@@ -12,6 +12,7 @@ body {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .container::after {
@@ -170,7 +171,8 @@ main {
 }
 
 .caros_txt {
-    max-width: calc(100% - 64vh);
+    max-width: calc(100% - 128vh);
+    max-height: 64vh;
     padding: 20px;
     overflow-y: hidden;
 }
