@@ -15,7 +15,7 @@ img {
 }
 
 .container::after {
-    contain: "";
+    content: "";
     display: table;
     clear: both;
 }
@@ -31,7 +31,7 @@ img {
 /* Header rules */
 
 .bgjumbo {
-    background-color: rgb(104, 174, 218);
+    background-color: rgb(44, 84, 109);
     min-width: 100%;
     /* width: 100px; */
     height: 550px;
@@ -55,6 +55,12 @@ header div.container h1 {
     margin-right: 5%;
 }
 
+/* 
+#jumboimg {
+    margin-bottom: 30px;
+}
+ */
+
 .btn {
     text-decoration: none;
     color: black;
@@ -66,6 +72,39 @@ header div.container h1 {
     color: white;
     background-color: blue;
 }
+
+/* main rules */
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* 
+.row {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 100%;
+}
+ */
+
+.plan {
+    border: 1px solid gray;
+    padding: 0 20px;
+}
+
+.col3 {
+    width: 30%;
+    margin: 0 auto;
+} 
+
+
+#strd {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 
 
 
