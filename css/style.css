@@ -19,6 +19,16 @@ h2 {
     font-size: 32px;
 }
 
+body p {
+    font-size: 13px;
+}
+
+p.txt_small {
+    font-size: 11px;
+}
+
+/* layout rules */
+
 .container::after {
     content: "";
     display: table;
@@ -31,6 +41,11 @@ h2 {
 
 .float_r {
     float: right;
+}
+
+.col60 {
+    width: 60%;
+    margin: 20px auto;
 }
 
 .col55 {
@@ -53,10 +68,19 @@ h2 {
     margin: 20px auto;
 }
 
+.col35 {
+    width: 35%;
+    margin: 20px auto;
+} 
+
 .col30 {
     width: 30%;
     margin: 20px auto;
 } 
+
+.col25 {
+    width: 25%;
+}
 
 .col20 {
     width: 20%;
@@ -83,7 +107,7 @@ h2 {
     text-decoration: none;
     color: black;
     background-color: white;
-    padding: 8px 20px;
+    padding: 6px 12px;
 }
 
 .btn_blue {
@@ -125,16 +149,12 @@ header nav ul li a{
 }
 
 .logo {
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 #menu_l, #menu_r {
-    margin-top: 3px;
+    margin-top: 1px;
     padding: 0 40px;
-}
-
-#menu_r {
-    margin-right: 20px;
 }
 
 /* jumbo rules */
@@ -146,14 +166,16 @@ header div.container {
 }
 
 header div.container h1 {
-    font-size: 60px;
+    font-size: 56px;
     margin-bottom: 20px;
 }
 
+/* 
 .jumbotxt {
     width: 25%;
     margin-right: 5%;
 }
+*/
 
 .bgjumbo {
     background-color: #b4d0e7;
