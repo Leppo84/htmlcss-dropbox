@@ -181,13 +181,6 @@ header div.container h1 {
     margin-bottom: 20px;
 }
 
-/* 
-.jumbotxt {
-    width: 25%;
-    margin-right: 5%;
-}
-*/
-
 header .icon {
     display: inline-block;
     width: 40px;
@@ -203,12 +196,6 @@ header .icon {
     z-index: -10;
 }
 
-/* 
-#jumboimg {
-
-}
- */
-
 /* main rules */
 
 .wrapper {
@@ -216,11 +203,32 @@ header .icon {
     margin: 0 auto;
 }
 
-.row {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    min-width: 100%;
+.sec_title {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#fakeradio01 {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 5px solid #0061ff;
+    margin: 1px;
+}
+
+#fakeradio02 {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 1px;
+}
+
+div.tax p {
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .plan {
