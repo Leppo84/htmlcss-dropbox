@@ -29,6 +29,29 @@ img {
     float: right;
 }
 
+.col55 {
+    width: 55%;
+    margin: 20px auto;
+}
+
+.col40 {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.col30 {
+    width: 30%;
+    margin: 20px auto;
+} 
+
+.col20 {
+    width: 20%;
+}
+
+.col15 {
+    max-width: 15%;
+}
+
 /* Header rules */
 
 .bgjumbo {
@@ -58,7 +81,7 @@ header div.container h1 {
 
 /* 
 #jumboimg {
-    margin-bottom: 30px;
+
 }
  */
 
@@ -76,7 +99,7 @@ header div.container h1 {
 
 /* main rules */
 
-main {
+.wrapper {
     width: 70%;
     margin: 0 auto;
 }
@@ -93,26 +116,11 @@ main {
     padding: 0 20px;
 }
 
-.col30 {
-    width: 30%;
-    margin: 20px auto;
-} 
-
 .colcentral {
     margin: 20px 5%;
 }
 
 #entprs {
-    margin: 20px auto;
-}
-
-.col55 {
-    width: 55%;
-    margin: 20px auto;
-}
-
-.col40 {
-    width: 40%;
     margin: 20px auto;
 }
 
@@ -177,18 +185,16 @@ main {
     overflow-y: hidden;
 }
 
+/* free try rules*/
+
+.bgtry {
+    background-color: skyblue;
+    padding: 50px 0;
+}
 
 /* FAQ rules */
 
 /* footer rules */
-
-.col20 {
-    width: 20%;
-}
-
-.col15 {
-    max-width: 15%;
-}
 
 footer {
     padding: 30px;
