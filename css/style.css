@@ -208,6 +208,9 @@ header .icon {
     margin-bottom: 50px;
 }
 
+/* fake radio rules*/
+
+
 #fakeradio01 {
     display: inline-block;
     width: 16px;
@@ -231,9 +234,19 @@ div.tax p {
     margin-left: 5px;
 }
 
+/* plan section rules */
+
 .plan {
     border: 1px solid gray;
     padding: 0 20px;
+}
+
+.plan_header {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+    width: 30%;
 }
 
 .colcentral {
