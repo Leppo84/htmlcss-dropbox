@@ -15,6 +15,10 @@ img {
     max-width: 100%;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 .container::after {
     content: "";
     display: table;
@@ -31,6 +35,16 @@ img {
 
 .col55 {
     width: 55%;
+    margin: 20px auto;
+}
+
+.col50 {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.col45 {
+    width: 45%;
     margin: 20px auto;
 }
 
@@ -52,21 +66,83 @@ img {
     max-width: 15%;
 }
 
-/* Header rules */
-
-.bgjumbo {
-    background-color: rgb(44, 84, 109);
-    min-width: 100%;
-    /* width: 100px; */
-    height: 550px;
-    position: absolute;
-    top: 100px;
-    z-index: -10;
+.col10 {
+    max-width: 10%;
 }
 
+.txtalign_c {
+    text-align: center;
+}
+
+.txtalign_r {
+    text-align: right;
+}
+
+.btn {
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 8px 20px;
+}
+
+.btn_blue {
+    color: white;
+    background-color: #0061ff;
+}
+
+/* Header rules */
+/* nav */
+
+header nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 20px;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu_l li {
+    margin-right: 20px;
+}
+
+
+#menu_r li {
+    margin-left: 20px;
+}
+
+.logo {
+    margin-top: 2px;
+}
+
+#menu_l, #menu_r {
+    margin-top: 3px;
+    padding: 0 40px;
+}
+
+#menu_r {
+    margin-right: 20px;
+}
+
+/* jumbo rules */
+
 header div.container {
-    padding: 0 7%;
-    margin-top: 10vh;
+    padding: 10%;
+    padding-bottom: 0;
+    margin-top: 100px;
 }
 
 header div.container h1 {
@@ -79,23 +155,20 @@ header div.container h1 {
     margin-right: 5%;
 }
 
+.bgjumbo {
+    background-color: #b4d0e7;
+    min-width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 10px;
+    z-index: -10;
+}
+
 /* 
 #jumboimg {
 
 }
  */
-
-.btn {
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    padding: 10px;
-}
-
-.btn_blue {
-    color: white;
-    background-color: blue;
-}
 
 /* main rules */
 
@@ -126,12 +199,13 @@ header div.container h1 {
 
 /* carosello rules */
 
+/* 
 .debug {
     background-color: blue;
     opacity: 50%;
     width: 100%;
     height: 60vh;
-}
+} */
 
 .caros_squares {
     width: 64vh;
@@ -188,8 +262,13 @@ header div.container h1 {
 /* free try rules*/
 
 .bgtry {
-    background-color: skyblue;
+    background-color: #b4d0e7;
     padding: 50px 0;
+}
+
+#btn_try {
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /* FAQ rules */
