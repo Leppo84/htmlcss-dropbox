@@ -24,7 +24,7 @@ body p {
 }
 
 p.txt_small {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 /* layout rules */
@@ -94,12 +94,23 @@ p.txt_small {
     max-width: 10%;
 }
 
+.col5 {
+    max-width: 5%;
+}
+
 .txtalign_c {
     text-align: center;
 }
 
 .txtalign_r {
     text-align: right;
+}
+
+.row {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 100%;
 }
 
 .btn {
@@ -176,6 +187,12 @@ header div.container h1 {
     margin-right: 5%;
 }
 */
+
+header .icon {
+    display: inline-block;
+    width: 40px;
+    min-width: 100%;
+}
 
 .bgjumbo {
     background-color: #b4d0e7;
