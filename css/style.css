@@ -216,7 +216,7 @@ header .icon {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 5px solid #0061ff;
+    border:  5px solid #0061ff;
     margin: 1px;
 }
 
@@ -225,7 +225,7 @@ header .icon {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin: 1px;
 }
 
@@ -237,35 +237,59 @@ div.tax p {
 /* plan section rules */
 
 .plan {
-    border: 1px solid gray;
-    padding: 0 20px;
-}
-
-.plan_header {
-    padding: 8px;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    margin: 0 auto;
-    width: 30%;
+    border: 1px solid lightgray;
 }
 
 .colcentral {
     margin: 20px 5%;
 }
 
-#entprs {
-    margin: 20px auto;
+
+.plan_header {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
 }
 
-/* carosello rules */
+.plan_body {
+    padding: 20px;
+    height: 700px;
+}
+
+.plan_body p {
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.plan_body h3 {
+    margin-top: 15px;
+}
+
+.plan_body .btn {
+    display: inline-block;
+    width: 100%;
+    margin: 30px auto 10px;
+    padding: auto;
+    text-align: center;
+}
+
+.gray {
+    color: gray;
+}
+
+.plan_body hr {
+    width:25%;text-align:left;
+    border-top: 1px solid lightgray;
+    margin-bottom: 25px;
+} 
 
 /* 
-.debug {
-    background-color: blue;
-    opacity: 50%;
-    width: 100%;
-    height: 60vh;
+#entprs {
+    margin: 20px auto;
 } */
+
+/* carosello rules */
 
 .caros_squares {
     width: 64vh;
