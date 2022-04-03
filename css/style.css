@@ -182,9 +182,8 @@ header div.container h1 {
 }
 
 header .icon {
-    display: inline-block;
-    width: 40px;
-    min-width: 100%;
+    font-size: 30px;
+    margin-top: 15px;
 }
 
 .bgjumbo {
@@ -258,8 +257,20 @@ div.tax p {
 }
 
 .plan_body p {
+    width: auto;
     font-size: 11px;
     margin-top: 15px;
+}
+
+.plan_body .icon {
+    display: inline-block;
+    margin-bottom: auto;
+    vertical-align: top;
+}
+
+.plan_body .features {
+    display: inline-block;
+    width:calc(100% - 16px);
 }
 
 .plan_body h3 {
@@ -283,6 +294,10 @@ div.tax p {
     border-top: 1px solid lightgray;
     margin-bottom: 25px;
 } 
+
+.green {
+    color: green;
+}
 
 /* 
 #entprs {
