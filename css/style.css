@@ -113,6 +113,13 @@ p.txt_small {
     min-width: 100%;
 }
 
+.row_high {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 100%;
+}
+
 .btn {
     font-size: 11px;
     text-decoration: none;
@@ -256,6 +263,11 @@ div.tax p {
     height: 700px;
 }
 
+#entprs .plan_body {
+    height: auto;
+}
+
+
 .plan_body p {
     width: auto;
     font-size: 11px;
@@ -273,7 +285,8 @@ div.tax p {
     width:calc(100% - 16px);
 }
 
-.plan_body h3 {
+
+.plan_body h5 {
     margin-top: 15px;
 }
 
@@ -281,6 +294,13 @@ div.tax p {
     display: inline-block;
     width: 100%;
     margin: 30px auto 10px;
+    padding: auto;
+    text-align: center;
+}
+
+#entprs .plan_body .btn {
+    width: 25%;
+    margin: 0 auto;
     padding: auto;
     text-align: center;
 }
@@ -295,14 +315,24 @@ div.tax p {
     margin-bottom: 25px;
 } 
 
-.green {
-    color: green;
+.blue {
+    color: #0061ff;
 }
 
-/* 
-#entprs {
-    margin: 20px auto;
-} */
+/* trova un partner rules */
+
+#btn_partner {
+    display: inline-block;
+    font-size: 13px;
+    border: 1px solid black;
+    margin: 25px auto;
+}
+
+/* operazioni rules */
+
+.underline {
+    text-decoration: underline;
+}
 
 /* carosello rules */
 
