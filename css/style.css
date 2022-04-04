@@ -54,7 +54,7 @@ p.txt_small {
 }
 
 .col50 {
-    width: 50%;
+    max-width: 50%;
     margin: 20px auto;
 }
 
@@ -350,35 +350,35 @@ div.tax p {
 }
 
 #card01 {
-    background-color: rgb(81, 241, 148);
+    background-color: #a2d39b;
 }
 
 #card02 {
-    background-color: rgb(82, 21, 39);
+    background-color: #61082b;
 }
 
 #card03 {
-    background-color: rgb(0, 153, 255);
+    background-color: #0093ce;
 }
 
 #card04 {
-    background-color: rgb(255, 0, 0);
+    background-color: #ff1c1c;
 }
 
 #card05 {
-    background-color: rgb(255, 0, 0);
+    background-color: #d5001f;
 }
 
 #card06 {
-    background-color: rgb(110, 206, 219);
+    background-color: #b4d0e7;
 }
 
 #card07 {
-    background-color: rgb(17, 27, 116);
+    background-color: #0d2481;
 }
 
 #card08 {
-    background-color: rgb(255, 230, 0);
+    background-color: #ffd830;
 }
 
 .caros_txt {
