@@ -460,10 +460,34 @@ div.tax p {
     margin-left: 10px;
 }
 
+.trigger {
+    cursor: pointer;
+}
+
+.expanded {
+    display: none;
+}
+
+.collapsed {
+    display: inline-block;
+}
+
+.trigger:hover .collapsed {
+    display: none;
+}
+
+.trigger:hover .expanded {
+    display: inline-block;
+}
+
+.FAQ_txt p {
+    padding: 10px;
+}
 
 /* footer rules */
 
 footer {
+    margin-top: 80px;
     padding: 30px;
     color: white;
     background-color: black;
