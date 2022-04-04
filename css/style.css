@@ -328,6 +328,10 @@ div.tax p {
     margin: 25px auto;
 }
 
+#partn_sec p {
+    line-height: 24px;
+}
+
 /* operazioni rules */
 
 .underline {
@@ -343,14 +347,25 @@ div.tax p {
 }
 
 .card {
+    position: relative;
     width: 32vh;
     height: 32vh;
     vertical-align: middle;
     color: white;
 }
 
+.card img{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 50%;
+    transform: translate(0, -50%);
+    filter: invert(1);
+}
+
 #card01 {
     background-color: #a2d39b;
+    border: 1.5vh solid #d0e9cd;
 }
 
 #card02 {
@@ -382,11 +397,23 @@ div.tax p {
 }
 
 .caros_txt {
+    background-color: #f5f5f5;
     max-width: calc(100% - 128vh);
-    max-height: 64vh;
-    padding: 20px;
+    height: 64vh;
+    padding: 30px;
     overflow-y: hidden;
 }
+
+.caros_txt img{
+    max-width: 25%;
+    height: auto;
+}
+
+.caros_txt hr{
+    max-width: 10%;
+    border-top: 1px solid lightgrey;    
+}
+
 
 /* free try rules*/
 
